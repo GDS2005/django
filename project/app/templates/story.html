@@ -51,28 +51,11 @@
                     <div class="text-center mb-5">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
                         <h1 class="fw-bolder">ChatGPT</h1>
-                        <p class="lead fw-normal text-muted mb-0 text-center">Preguntale algo a ChatGPT</p>
+                        <p class="lead fw-normal text-muted mb-0 text-center">Respuesta</p>
                     </div>
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-8 col-xl-6">
-                            <!-- * * * * * * * * * * * * * * *-->
-                            <!-- * * SB Forms Contact Form * *-->
-                            <!-- * * * * * * * * * * * * * * *-->
-                            <!-- This form is pre-integrated with SB Forms.-->
-                            <!-- To make this form functional, sign up at-->
-                            <!-- https://startbootstrap.com/solution/contact-forms-->
-                            <!-- to get an API token!-->
-                            <form id="contactForm" action="{% url 'api_openai' %}" method="post">
-                              {% csrf_token %}
-                                <!-- Name input-->
-                                <div class="form-floating mb-3">
-                                    <input class="form-control" id="q1" name="q1" type="text" placeholder="Enter your name..." data-sb-validations="required" data-sb-can-submit="no">
-                                    <label for="name">Pregunta</label>
-                                    <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                                </div>
-                                <!-- Submit Button-->
-                                <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button></div>
-                            </form>
+                          {{ result }}
                         </div>
                     </div>
                 </div>

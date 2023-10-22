@@ -1,4 +1,4 @@
-<h1>StoryGameProject</h1>
+<h1>OpenAI + Game</h1>
 
 <p>This Django project allows you to create a web game that generates stories using the OpenAI API.</p>
 
