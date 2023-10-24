@@ -1,3 +1,6 @@
 venv
+project\__pycache__
+project\project\__pycache__
+project\products\__pycache__
+project\db.sqlite3
 __pycache__
-db.sqlite3

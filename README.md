@@ -1,6 +1,6 @@
-<h1>OpenAI + Game</h1>
+<h1>Products CRUD</h1>
 
-<p>This Django project allows you to create a web game that generates stories using the OpenAI API.</p>
+<p>This Django project allows you to create, read, update and delete Products using the sqlite database.</p>
 
 <h2>Setup</h2>
 
@@ -15,13 +15,9 @@
     <code>python manage.py runserver</code>
 </ol>
 
-<h2>Using OpenAI API</h2>
+<h2>Using the CRUD</h2>
 
-<p>Make sure to set up your OpenAI API key in the relevant parts of the code. You can obtain an API key from the OpenAI dashboard.</p>
-
-<h2>Generating Stories</h2>
-
-<p>Stories are generated using the ChatGPT engine. The generated story can be accessed at the URL specified for story generation.</p>
+<p>First add a new product, then you can try to modify and delete options.</p>
 
 <h2>Contributing</h2>
 
